@@ -61,7 +61,7 @@ This was my final project for my Python course. I built it to practice Python, O
 
 ## Project Structure
 
-
+```text
 Car-Service-Center-Management-System/
 │
 ├── controller.py
@@ -70,7 +70,7 @@ Car-Service-Center-Management-System/
 ├── images/
 ├── MySQL Queries/
 └── .gitignore
-
+```
 
 ### controller.py
 
