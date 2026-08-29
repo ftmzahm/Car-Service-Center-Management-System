@@ -1,13 +1,13 @@
 # Car Service Center Management
 import mysql.connector
-
+import os
 
 class Database:
     def _connect(self):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="root1234",
+            password=os.getenv("MYSQL_PASSWORD"),
             database="car_service"
         )
         return db
